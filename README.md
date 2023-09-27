@@ -1,6 +1,6 @@
 # Devcontainer for Exercism
 
-This provides a [devcontainer](https://code.visualstudio.com/docs/devcontainers/containers) to work in exercism in the following languages:
+This provides a [devcontainer](https://code.visualstudio.com/docs/devcontainers/containers) to work in (exercism)[https://exercism.org] in the following languages:
 
 * F#
 
