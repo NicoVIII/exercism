@@ -1,1 +1,5 @@
+# F#
 fsharp/
+# TypeScript
+node_modules/
+typescript/
