@@ -26,10 +26,8 @@
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
-	// Ensure that the user can write the volume
-	"postCreateCommand": "./.devcontainer/postCreate.sh",
-	// Prepare all tools
-	"postStartCommand": "./.devcontainer/postStart.sh",
+	// Prepare environment
+	"postStartCommand": "${containerWorkspaceFolder}/.devcontainer/postStart.sh",
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 	"mounts": [
